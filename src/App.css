@@ -1,28 +1,25 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html , body {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  min-height: 5.5vh;
+  display: block;
+  align-items: flex-start;
   color: white;
 }
+body{
+  background-image: url(../public/fondo.jpg);
+  background-size: cover;
+}
+
+/* .App {
+  text-align: left;
+} */
 
 .App-link {
   color: #61dafb;
@@ -36,3 +33,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+.me-1, .lol , .boton{
+  background-color: transparent;
+  border: none;
+}
+.oculto {
+  display: none;
+}
+
+.layout-horizontal .main-navbar {
+  background-color: #435ebe;
+  padding: 1rem;
+}
+ul {
+  list-style: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.layout-horizontal .main-navbar {
+  background-color: rgba(77, 171, 248, 0.589);
+}
+
+ p.text {
+  position: absolute;
+  color: black;
+  left: 46%;
+  top: 50%;
+}
+
+.fondo_marco {
+  z-index: -2;
+  position: absolute;
+  left: 42%;
+  top: 21%;
+  width: 16%;
+  background-color: rgb(255, 255, 255);
+  height: 74%;
+  border-radius: 24px;
+} 
